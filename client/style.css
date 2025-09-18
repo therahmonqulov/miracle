@@ -65,6 +65,15 @@ body {
     color: #fff;
 }
 
+.menu-links ul li:hover {
+    background-color: #444;
+    border-radius: 10px;
+}
+
+.menu-links ul li i:hover {
+    color: yellowgreen !important;
+}
+
 .menu-links ul li i {
     margin-right: 5%;
 }
@@ -153,30 +162,52 @@ body {
     font-weight: 400;
 }
 
+.section-main-text-button {
+    outline: none;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: yellowgreen;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section-main-text-button i {
+    margin-right: 5px;
+}
+
 /*  */
 .lang-section {
     margin-top: 40px;
+    margin-bottom: 40px;
     display: grid;
     align-items: center;
     justify-content: center;
 }
+
 .lang-section-text {
     text-align: center;
 }
+
 .lang-section-boxes {
     padding: 10px;
     margin: 15px 10px;
     display: inline-grid;
     align-items: center;
     justify-content: center;
-    width: 120px;
+    width: 100px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
 .lang-section-boxes img {
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    border: 1px solid #ddd;
+    width: 45px;
+    height: 45px;
 }
+
 .lang-section-boxes-text {
     text-align: center;
     font-weight: 600;
