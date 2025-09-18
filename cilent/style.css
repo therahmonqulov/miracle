@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+}
+body {
+    display: flex;
+}
+.crl {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.crl i {
+    color: yellowgreen !important;
+    margin-right: 5%;
+}
+
+/* menu */
+.menu {
+    border-radius: 10px;
+    position: fixed;
+    margin: 10px;
+    height: 97vh;
+    background-color: #222;
+    width: 20%;
+    padding: 15px 10px;
+}
+.logo {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+}
+.logo img {
+    width: 30px;
+    margin-right: 10px;
+}
+.menu-links {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.menu-links ul {
+    list-style: none;
+}
+.menu-links ul li {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 17px;
+    margin: 10px 0px;
+    font-weight: 600;
+    color: #fff;
+}
+.menu-links ul li i {
+    margin-right: 5%;
+}
+.menu-setting {
+    width: 85%;
+    border-top: 1px solid #fff;
+    position: absolute;
+    bottom: 15px;
+}
+.menu-setting span {
+    cursor: pointer;
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    align-items: center;
+    color: #fff;
+    display: flex;
+}
+.menu-setting i {
+    margin-right: 10px !important;
+}
+
+/* body */
+.body {
+    margin-left: 22%;
+    margin-right: 30px;
+    width: 80%;
+}
+.body header {
+    padding-top: 20px;
+    display: flex;
+    position: fixed;
+    width: 76%;
+    background-color: #fff;
+}
+.user {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+}
+.user span {
+    font-weight: 600;
+}
+.body .user img {
+    margin-right: 10px;
+    width: 25px;
+}
+.main {
+    margin-top: 40px;
+}
