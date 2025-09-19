@@ -108,6 +108,7 @@ body {
 
 .body header {
     padding-top: 20px;
+    padding-bottom: 10px;
     display: flex;
     position: fixed;
     width: 76%;
@@ -118,7 +119,7 @@ body {
     display: flex;
     align-items: center;
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
     right: 0px;
 }
 
