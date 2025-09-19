@@ -212,3 +212,51 @@ body {
     text-align: center;
     font-weight: 600;
 }
+
+.result {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.result-text {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.result-boxes {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.result-boxes-text {
+    display: inline-grid;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+.result-boxes-text-span {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.result-boxes-text i {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: yellowgreen !important;
+}
+
+.result-boxes-number {
+    display: block;
+    margin-top: 5px;
+    font-size: 25px;
+    color: yellowgreen;
+}
+
