@@ -246,3 +246,21 @@ body {
     font-weight: 600;
 }
 
+.result-boxes-text-span {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.result-boxes-text i {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: yellowgreen !important;
+}
+
+.result-boxes-number {
+    display: block;
+    margin-top: 5px;
+    font-size: 25px;
+    color: yellowgreen;
+}
+
