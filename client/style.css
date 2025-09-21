@@ -191,7 +191,7 @@ body {
 .language-section-boxes {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
 .language-section-boxes-box {
@@ -201,6 +201,7 @@ body {
 }
 
 .language-section-boxes-box img {
+    border-radius: 25px;
     margin-bottom: 5px;
     width: 100%;
 }
