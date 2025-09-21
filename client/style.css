@@ -116,6 +116,9 @@ body {
 }
 
 .user {
+    background-color: #ebe3e3;
+    border-radius: 10px;
+    padding: 8px 10px;
     display: flex;
     align-items: center;
     position: absolute;
@@ -124,12 +127,13 @@ body {
 }
 
 .user span {
+    font-size: 15px;
     font-weight: 600;
 }
 
 .body .user img {
     margin-right: 10px;
-    width: 25px;
+    width: 23px;
 }
 
 .main {
