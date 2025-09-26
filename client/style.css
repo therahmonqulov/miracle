@@ -328,7 +328,7 @@ header {
 .footer {
     background-color: #222;
     color: #fff;
-    padding: 20px 20px 10px 30px;
+    padding: 20px 0px 10px 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-top: 30px;
@@ -336,9 +336,8 @@ header {
 
 .footer-content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -379,6 +378,10 @@ header {
 .footer-contact p {
     margin: 10px 0;
     font-weight: 400;
+}
+
+.footer-social {
+    margin-top: 10px;
 }
 
 .footer-social a {
