@@ -50,13 +50,14 @@
 
     .menu-links ul {
         display: flex;
+        justify-content: space-around;
         list-style: none;
     }
 
     .menu-links ul li {
         cursor: pointer;
         padding: 5px 20px;
-        font-size: 17px;
+        font-size: 18px;
         margin: 10px 0px;
         font-weight: 600;
         color: #fff;
