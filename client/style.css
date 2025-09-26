@@ -106,12 +106,12 @@ body {
     width: 80%;
 }
 
-.body header {
-    padding-top: 20px;
-    padding-bottom: 10px;
+header {
+    right: 0px;
     display: flex;
     position: fixed;
-    width: 76%;
+    padding: 20px;
+    width: 79%;
     background-color: #fff;
 }
 
@@ -122,8 +122,8 @@ body {
     display: flex;
     align-items: center;
     position: absolute;
-    bottom: 10px;
-    right: 0px;
+    bottom: 15px;
+    right: 27px;
 }
 
 .user span {
@@ -131,7 +131,7 @@ body {
     font-weight: 600;
 }
 
-.body .user img {
+.user img {
     margin-right: 10px;
     width: 23px;
 }
@@ -189,12 +189,12 @@ body {
 }
 
 .language-section-text {
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
 .language-section-boxes {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
@@ -214,6 +214,120 @@ body {
 .language-section-boxes-box span {
     font-weight: 600;
     font-size: 17px;
+}
+
+/* profile section */
+.profile-section {
+    margin: 35px 0px;
+    padding: 15px;
+    background-color: #fbf3f3;
+    border-radius: 10px;
+}
+
+.profile-section-text {
+    margin-bottom: 15px;
+}
+
+.profile-section-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.profile-section-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-section-info img {
+    width: 60px;
+    margin-right: 15px;
+}
+
+.profile-section-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.profile-section-info p {
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.profile-section-stats h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.profile-section-stats p {
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+/* contact section */
+.contact-section {
+    margin: 35px 0px;
+    padding: 15px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.contact-section-text {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.contact-section-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-section-info p {
+    color: #fff;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.contact-section-info i {
+    margin-right: 10px;
+    color: yellowgreen;
+}
+
+.contact-section-form {
+    width: 50%;
+}
+
+.contact-section-form h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.contact-input,
+.contact-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-section-button {
+    outline: none;
+    padding: 10px 20px;
+    border: none;
+    background-color: yellowgreen;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* result section */
