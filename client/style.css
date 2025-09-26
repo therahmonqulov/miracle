@@ -153,6 +153,7 @@
     }
 
     .section-main-text h1 {
+        font-size: 24px;
         margin-top: 10px;
     }
 
@@ -187,11 +188,12 @@
 
     .teacher-section-text {
         text-align: center;
+        padding: 0px 15px;
         margin-bottom: 30px;
     }
 
     .teacher-section-text h2 {
-        font-size: 2.7rem;
+        font-size: 1.7rem;
         font-weight: bold;
         color: #222;
         margin-bottom: 10px;
@@ -296,6 +298,7 @@
     }
 
     .language-section-text {
+        text-align: center;
         margin-bottom: 15px;
     }
 
@@ -303,6 +306,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
+        padding: 0px 30px;
     }
 
     .language-section-boxes-box {
@@ -330,10 +334,12 @@
     }
 
     .profile-section-text {
+        text-align: center;
         margin-bottom: 15px;
     }
 
     .profile-section-content {
+        text-align: center;
         border-radius: 10px;
         padding: 15px;
         display: grid;
@@ -343,7 +349,6 @@
     }
 
     .profile-section-info {
-        display: flex;
         align-items: center;
     }
 
