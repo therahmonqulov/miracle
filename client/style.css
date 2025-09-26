@@ -231,6 +231,7 @@ header {
 .profile-section-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .profile-section-info {
@@ -264,116 +265,13 @@ header {
     font-weight: 400;
 }
 
-/* contact section */
-.contact-section {
-    margin: 35px 0px;
-    padding: 15px;
-    background-color: #222;
-    border-radius: 10px;
-}
-
-.contact-section-text {
-    margin-bottom: 15px;
-    color: #fff;
-}
-
-.contact-section-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.contact-section-info p {
-    color: #fff;
-    font-weight: 400;
-    margin: 10px 0;
-}
-
-.contact-section-info i {
-    margin-right: 10px;
-    color: yellowgreen;
-}
-
-.contact-section-form {
-    width: 50%;
-}
-
-.contact-section-form h3 {
-    color: #fff;
+.profile-section-lesson h3 {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.contact-input,
-.contact-textarea {
-    width: 100%;
-    padding: 10px;
     margin-bottom: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
 }
 
-.contact-textarea {
-    height: 100px;
-    resize: none;
-}
-
-.contact-section-button {
-    outline: none;
-    padding: 10px 20px;
-    border: none;
-    background-color: yellowgreen;
-    color: #fff;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* result section */
-.result {
-    margin-bottom: 30px;
-    padding: 15px;
-    background-color: #222;
-    border-radius: 10px;
-}
-
-.result-text {
-    margin-bottom: 20px;
-    text-align: center;
-    color: #fff;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.result-boxes {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.result-boxes-text {
-    display: inline-grid;
-    text-align: center;
-    color: #fff;
-    font-weight: 600;
-}
-
-.result-boxes-text-span {
-    margin-top: 5px;
-    font-size: 20px;
-}
-
-.result-boxes-text i {
-    font-size: 30px;
-    margin-bottom: 5px;
-    color: yellowgreen !important;
-}
-
-.result-boxes-number {
-    display: block;
-    margin-top: 5px;
-    font-size: 25px;
-    color: yellowgreen;
+.profile-section-lesson p {
+    margin: 5px 0;
+    font-weight: 400;
 }
