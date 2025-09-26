@@ -393,10 +393,9 @@
 
     /* result section */
     .result {
-        margin-bottom: 50px;
-        padding: 15px;
+        margin: 25px 0px;
+        padding: 25px;
         background-color: #222;
-        border-radius: 10px;
     }
 
     .result-text {
@@ -409,8 +408,8 @@
 
     .result-boxes {
         display: grid !important;
-        grid-template-columns: repeat(1, 1fr) !important;
-        gap: 20px;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 30px;
     }
 
     .result-boxes-text {
