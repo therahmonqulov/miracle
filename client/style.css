@@ -21,19 +21,16 @@
 
     /* menu */
     .menu {
-        /* border-radius: 10px;
+        width: 100%;
         position: fixed;
-        margin: 10px;
-        height: 97vh;
+        bottom: 0px;
         background-color: #222;
-        width: 20%;
-        padding: 15px 10px; */
-        display: none;
+        z-index: 1000;
     }
 
     .logo {
         padding: 15px;
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -48,17 +45,17 @@
     }
 
     .menu-links {
-        margin-top: 25px;
         margin-left: 10px;
     }
 
     .menu-links ul {
+        display: flex;
         list-style: none;
     }
 
     .menu-links ul li {
         cursor: pointer;
-        padding: 10px 20px;
+        padding: 5px 20px;
         font-size: 17px;
         margin: 10px 0px;
         font-weight: 600;
@@ -70,11 +67,16 @@
         border-radius: 10px;
     }
 
+    .menu-links ul li span {
+        display: none;
+    }
+
     .menu-links ul li i {
         margin-right: 5%;
     }
 
     .menu-setting {
+        display: none;
         width: 85%;
         border-top: 1px solid #fff;
         position: absolute;
@@ -82,13 +84,13 @@
     }
 
     .menu-setting span {
+        display: flex;
         cursor: pointer;
         padding-top: 10px;
         font-size: 17px;
         font-weight: 600;
         align-items: center;
         color: #fff;
-        display: flex;
     }
 
     .menu-setting i {
@@ -122,13 +124,13 @@
     }
 
     .user span {
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 600;
     }
 
     .user img {
         margin-right: 10px;
-        width: 23px;
+        width: 20px;
     }
 
     /* main */
@@ -437,6 +439,7 @@
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         margin-top: 30px;
+        margin-bottom: 45px;
     }
 
     .footer-content {
