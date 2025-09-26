@@ -522,7 +522,7 @@
 }
 
 /* tablet */
-@media screen and (min-width: 770px) and (max-width: 1024px) {
+@media screen and (min-width: 770px) and (max-width: 1150px) {
     body {
         display: flex;
     }
@@ -1026,7 +1026,7 @@
 }
 
 /* laptop and PC */
-@media screen and (min-width: 1024px) and (max-width: 5000px) {
+@media screen and (min-width: 1150px) and (max-width: 5000px) {
     body {
         display: flex;
     }
