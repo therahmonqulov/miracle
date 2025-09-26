@@ -97,7 +97,6 @@
 
     /* body */
     .body {
-        margin-right: 30px;
         width: 100%;
     }
 
@@ -106,7 +105,7 @@
         right: 0px;
         display: flex;
         position: fixed;
-        padding: 20px;
+        padding: 10px;
         width: 100%;
         background-color: #fff;
     }
@@ -118,8 +117,8 @@
         display: flex;
         align-items: center;
         position: absolute;
-        bottom: 15px;
-        right: 27px;
+        bottom: 5px;
+        right: 15px;
     }
 
     .user span {
@@ -132,14 +131,10 @@
         width: 23px;
     }
 
-    .main {
-        margin-top: 45px;
-    }
-
     /* main */
     .section-main {
-        margin-top: 60px;
-        padding: 15px;
+        margin-top: 0px;
+        padding: 70px 15px 15px 15px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         background-color: #fbf3f3;
