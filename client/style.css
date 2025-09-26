@@ -346,6 +346,10 @@ header {
     width: 130px;
 }
 
+.footer-logo p {
+    margin-top: 10px;
+}
+
 .footer-links h3,
 .footer-contact h3,
 .footer-social h3 {
